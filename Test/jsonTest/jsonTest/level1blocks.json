@@ -1,0 +1,72 @@
+{
+    "0": {
+        "color": "#ffffff"
+        , "solidTop": true
+        , "solidBottom": true
+        , "solidLeft": true
+        , "solidRight": true
+        , "isWater": false
+        , "gravity": true
+        , "death": false
+        , "goal": false
+        , "bounce": false
+        , "toggles": -1
+        , "toggledBy": -1
+    }
+    , "1": {
+        "color": "#000000"
+        , "solidTop": false
+        , "solidBottom": false
+        , "solidLeft": false
+        , "solidRight": false
+        , "isWater": false
+        , "gravity": true
+        , "death": false
+        , "goal": false
+        , "bounce": false
+        , "toggles": -1
+        , "toggledBy": -1
+    }
+    , "2": {
+        "color": "#0000ff"
+        , "solidTop": false
+        , "solidBottom": false
+        , "solidLeft": false
+        , "solidRight": false
+        , "isWater": true
+        , "gravity": true
+        , "death": false
+        , "goal": false
+        , "bounce": false
+        , "toggles": -1
+        , "toggledBy": -1
+    }
+    , "3": {
+        "color": "#00ff00"
+        , "solidTop": false
+        , "solidBottom": false
+        , "solidLeft": false
+        , "solidRight": false
+        , "isWater": false
+        , "gravity": true
+        , "death": false
+        , "goal": true
+        , "bounce": false
+        , "toggles": -1
+        , "toggledBy": -1
+    }
+    , "4": {
+        "color": "#ff0000"
+        , "solidTop": false
+        , "solidBottom": false
+        , "solidLeft": false
+        , "solidRight": false
+        , "isWater": false
+        , "gravity": true
+        , "death": true
+        , "goal": false
+        , "bounce": false
+        , "toggles": -1
+        , "toggledBy": -1
+    }
+}
