@@ -53,22 +53,7 @@ int main(int argc, const char * argv[]) {
     }
     breader.parse(bifs, bobj);
     for (int bindex=0;bindex<bobj.size();bindex++){
-        if (bobj[to_string(bindex)]["goal"].asBool()) {
-           // cout<<bobj[to_string(bindex)]<<"\n";
-        }
-//        cout<<bobj[to_string(bindex)]["bounce"].asBool()<<"\n";
-//        cout<<bobj[to_string(bindex)]["color"]<<"\n";
-//        cout<<bobj[to_string(bindex)]["bounce"].asBool()<<"\n";
-//        cout<<bobj[to_string(bindex)]["death"].asBool()<<"\n";
-//        cout<<bobj[to_string(bindex)]["goal"].asBool()<<"\n";
-//        cout<<bobj[to_string(bindex)]["gravity"].asBool()<<"\n";
-//        cout<<bobj[to_string(bindex)]["isWater"].asBool()<<"\n";
-//        cout<<bobj[to_string(bindex)]["solidBottom"].asBool()<<"\n";
-//        cout<<bobj[to_string(bindex)]["solidLeft"].asBool()<<"\n";
-//        cout<<bobj[to_string(bindex)]["solidRight"].asBool()<<"\n";
-//        cout<<bobj[to_string(bindex)]["solidTop"].asBool()<<"\n";
-//        cout<<bobj[to_string(bindex)]["toggledBy"].asInt()<<"\n";
-//        cout<<bobj[to_string(bindex)]["toggles"].asInt()<<"\n";
+        cout<<bobj[to_string(bindex)]["color"]["r"];
     }
     
     
